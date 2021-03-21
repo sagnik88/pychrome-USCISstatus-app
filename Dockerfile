@@ -4,6 +4,7 @@ MAINTAINER tech@21buttons.com
 USER root
 
 ENV APP_DIR /var/task
+ENV RECEIPTNUMBER=<Add receipt number>
 
 WORKDIR $APP_DIR
 

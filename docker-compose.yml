@@ -6,5 +6,8 @@ services:
     environment:
       - PYTHONPATH=/var/task/src:/var/task/lib
       - PATH=/var/task/bin
+      - AWS_ACCESS_KEY_ID=<From iam user with access to dynamodb>
+      - AWS_SECRET_ACCESS_KEY=<From iam user with access to dynamodb>
+      - AWS_REGION=<Region of Dyanmodb>
     volumes:
       - ./src/:/var/task/src/

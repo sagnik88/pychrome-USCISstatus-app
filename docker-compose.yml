@@ -6,8 +6,8 @@ services:
     environment:
       - PYTHONPATH=/var/task/src:/var/task/lib
       - PATH=/var/task/bin
-      - AWS_ACCESS_KEY_ID=AKIA5EO3WWB74BPUCSHF
-      - AWS_SECRET_ACCESS_KEY=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
+      - AWS_ACCESS_KEY_ID=
+      - AWS_SECRET_ACCESS_KEY=
       - AWS_REGION=us-east-1
     volumes:
       - ./src/:/var/task/src/
